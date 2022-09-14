@@ -1,0 +1,14 @@
+.home {
+  width: 100%;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .list-card-wrapper {
+      background-color: white;
+      width: 50%;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 1rem;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(6, 3, 39);
+  padding: 2rem 0;
+  cursor: pointer;
+
+  img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    text-align: left;
+  }
+
+  .card_head {
+    width: 50%;
+    align-items: center;
+    margin-left: 2rem;
+    text-align: left;
+
+    .footer-card {
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+    }
+  }
+
+  &:hover {
+    background-color: rgb(161, 213, 255);
+    color: black;
+    font-weight: 600;
+  }
+}
